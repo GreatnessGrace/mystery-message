@@ -17,7 +17,7 @@ try {
     return { success: true, message: 'Verification Email sent successfully'}
 
 } catch (emailError) {
-    console.log("error in ssending vverification email", emailError)
+    console.log("Error in sending verification email", emailError)
     return { success: false, message: 'Failed to send verification email'}
 }
 }
